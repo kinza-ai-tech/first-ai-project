@@ -65,11 +65,3 @@ print(student["cgpa"])
 student["universty"]="comsats"
 student["skin colour"]="fair"
 print(student)
-
-#function with real logic
-def calculate_grade
-
-
-
-
-

@@ -38,12 +38,12 @@ def take_order():
             break
         if choice in menu["food"]:
             order_list.append((choice, menu["food"][choice]))
-            print(f"✅ Added {choice} - {menu['food'][choice]} Rs")
+            print(f" Added {choice} - {menu['food'][choice]} Rs")
         elif choice in menu["drinks"]:
             order_list.append((choice, menu["drinks"][choice]))
-            print(f"✅ Added {choice} - {menu['drinks'][choice]} Rs")
+            print(f" Added {choice} - {menu['drinks'][choice]} Rs")
         else:
-            print("❌ Sorry, item not available. Please try again.")
+            print(" Sorry, item not available. Please try again.")
 
 
 def show_bill():
@@ -66,7 +66,7 @@ def show_bill():
 
 def suggest_random_food():
     suggestion = random.choice(list(menu["food"].keys()))
-    print(f"🤔 Can't decide? How about trying: {suggestion}!")
+    print(f"Can't decide? How about trying: {suggestion}!")
 
 
 # --- Main Program ---
@@ -86,7 +86,7 @@ if __name__ == "__main__":
         elif choice == "suggest":
             suggest_random_food()
         elif choice == "exit":
-            print("🙏 Thank you for visiting! Have a nice day.")
+            print(" Thank you for visiting! Have a nice day.")
             break
         else:
-            print("❌ Invalid choice, please try again.")
+            print(" Invalid choice, please try again.")

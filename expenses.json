@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "category": "food",
+        "amount": 5000,
+        "description": "birthday party",
+        "date": "2026-06-23"
+    },
+    {
+        "id": 2,
+        "category": "food",
+        "amount": 500,
+        "description": "samosa",
+        "date": "2026-06-23"
+    },
+    {
+        "id": 3,
+        "category": "transport",
+        "amount": 5000,
+        "description": "car",
+        "date": "2026-06-23"
+    },
+    {
+        "id": 4,
+        "category": "rent",
+        "amount": 15000,
+        "description": "room rent",
+        "date": "2026-06-23"
+    },
+    {
+        "id": 5,
+        "category": "other",
+        "amount": 9000,
+        "description": "clothes",
+        "date": "2026-06-23"
+    }
+]
